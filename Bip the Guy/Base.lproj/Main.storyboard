@@ -42,14 +42,14 @@
                                         <rect key="frame" x="0.0" y="0.0" width="92" height="0.0"/>
                                         <state key="normal" title="Photo Library"/>
                                         <connections>
-                                            <action selector="libraryPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aMU-nc-NYO"/>
+                                            <action selector="libraryPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YY2-X2-t5T"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ebW-r3-7CF">
                                         <rect key="frame" x="104" y="0.0" width="85" height="0.0"/>
                                         <state key="normal" title="Take Picture"/>
                                         <connections>
-                                            <action selector="cameraPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cYY-0c-7wT"/>
+                                            <action selector="cameraPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nx5-7j-I3t"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -76,7 +76,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="CiZ-No-2gO">
                     <connections>
-                        <action selector="imageTapped:" destination="BYZ-38-t0r" id="Qu7-Kv-9Cj"/>
+                        <action selector="imageTapped:" destination="BYZ-38-t0r" id="yg0-H3-Srt"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
